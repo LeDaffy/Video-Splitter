@@ -1,4 +1,4 @@
-# Simple C program to split video using ffmpeg
+# Simple C program to split video with timestamps using ffmpeg
 ## Description
 Split a source video into multiple video files by providing timestamps and filename.
 
@@ -6,10 +6,11 @@ Split a source video into multiple video files by providing timestamps and filen
 Install ffmpeg to the system path.
 
 Use `gcc -o splitter.exe splitter.c`
-Place splitter.exe into the directory witht the source video
+
+Place splitter.exe into the directory with the source video.
 
 ## Usage
-Create a timestamp file following timestamps.txt. Do not include comments. Place the timestamps files in the same directory as the source video. Open the command prompt.
+Create a timestamp file following the example file "timestamps.txt". Do not include comments. Place the timestamps files in the same directory as the source video. Open the command prompt.
 
 `splitter.exe -i source.mp4 -t timestamps.txt`
 
