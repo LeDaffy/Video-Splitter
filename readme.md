@@ -2,12 +2,13 @@
 
 ## Installation
 Install ffmpeg to the system path.
+
 Use `gcc -o splitter.exe splitter.c`
 Place splitter.exe into the directory witht the source video
 
 Commands
--i input file name: use this to provide the source video that needs to be split into timecodes
--t timestamps file name: use this to provide the timestamps file
+- -i input file name: use this to provide the source video that needs to be split into timecodes
+- -t timestamps file name: use this to provide the timestamps file
 
 The timestamp file should look like this. Erase comments
 3                               // Number of videos to create
