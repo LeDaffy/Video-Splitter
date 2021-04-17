@@ -1,4 +1,4 @@
-3                               // Number of videos to create
+3                               // Number of videos to create. DO NOT INCLUDE ANY OF THE COMMENTED ITEMS IN YOUR TIME STAMP FILE.
 00:01:34 Title1.mp4             // Start timestamp of the video and then the first title. Follow the format hh:mm:ss for the timecode
 00:04:27 Title2.mp4             // Beginning of the next video and then the next title
 00:10:00                        // The last line is the end timestamp of your final video do not include a title.
