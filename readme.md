@@ -1,4 +1,6 @@
 # Simple C program to split video using ffmpeg
+## Description
+Split a source video into multiple video files by providing timestamps and filename.
 
 ## Installation
 Install ffmpeg to the system path.
