@@ -1,4 +1,4 @@
-Simple C program to split video using ffmpeg
+##Simple C program to split video using ffmpeg
 make sure ffmpeg is installed to the system PATH
 
 Commands
